@@ -6,7 +6,7 @@ function createGrid(gridNumber) {
         item.setAttribute('id', 'item');
         
         item.addEventListener('mouseover', () => item.classList.add('hover'));
-        item.addEventListener('mouseout', () => item.classList.remove('hover'));
+        /*item.addEventListener('mouseout', () => item.classList.remove('hover'));*/
     
         container.appendChild(item);
     }
@@ -17,3 +17,5 @@ function createGrid(gridNumber) {
 
 createGrid(16);
 const resetButton = document.createElement('button');
+resetButton.classList.add('button');
+container.appendChild(resetButton);

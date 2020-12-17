@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+}
+
+#item.hover {
+    background-color: blue;
+}
+
+#item {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.button {
+    width: 40px;
+    height: 30px;
+}
