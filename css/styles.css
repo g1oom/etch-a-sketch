@@ -5,11 +5,11 @@
     position: absolute;
 }
 
-#item.hover {
+.item.hover {
     background-color: blue;
 }
 
-#item {
+.item {
     background-color: white;
     border: 1px solid black;
 }
