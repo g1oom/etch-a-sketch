@@ -1,20 +1,23 @@
-.container {
-    display: grid;
-    width: 500px;
-    height: 500px;
-    position: absolute;
+body {
+    position: relative;
 }
 
-.item.hover {
-    background-color: blue;
+.container {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .item {
     background-color: white;
     border: 1px solid black;
+    filter: brightness(100%);
 }
 
 .button {
-    width: 40px;
+    display: block;
+    width: 50px;
     height: 30px;
-}
+    margin: 10px auto 10px auto;
